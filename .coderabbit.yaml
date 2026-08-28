@@ -3,9 +3,8 @@ language: en-US
 early_access: true
 
 tone_instructions: >-
-  This service owns no plan data. Everything a member sees is derived from a
-  contract published by another repository. Review changes here with that
-  dependency in mind: say what upstream shape the code now assumes, and what
+  This service owns no plan data; everything a member sees comes from another
+  repository's contract. Say what upstream shape the code now assumes, and what
   happens at run time when the upstream stops matching it.
 
 reviews:
@@ -54,7 +53,7 @@ reviews:
 
   pre_merge_checks:
     docstrings:
-      mode: off
+      mode: "off"
 
     title:
       mode: warning
